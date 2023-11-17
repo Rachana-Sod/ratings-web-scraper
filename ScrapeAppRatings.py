@@ -30,6 +30,8 @@ def getGoogleRating():
 
 def main():
 
+    x = 1
+
     data = [getAppleRating(),getGoogleRating()]
 
     dfData = pd.DataFrame(data,columns=["Apple Rating", "Google Rating"])
@@ -38,3 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
